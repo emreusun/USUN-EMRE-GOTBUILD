@@ -59,7 +59,7 @@ House Greyjoy's sigil is traditionally a golden kraken on a black field. Their h
 
     function showHouseData(targetIndex) {
         //debugger;
-        houseName.textContent = `House ${houseData[targetIndex][0]}`;
+        houseName.textContent = `House-${houseData[targetIndex][0]}`;
         houseInfo.textContent = houseData[targetIndex][1];
     }
 

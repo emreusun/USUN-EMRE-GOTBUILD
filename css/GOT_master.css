@@ -36,7 +36,7 @@ main {
 	overflow:hidden;
 }
 
-#houseImages { position:relative; width: 4000px; transition: all 0.5s; }
+#houseImages { position:relative; width: 6000px; transition: all 0.9s; }
 #houseImages img { float:left; }
 
 #bottomNav { margin-top:30px; }
@@ -52,11 +52,11 @@ main {
 
 /* ----- image sprite ----- */
 .sigilContainer {
-	width:40px;
-	height:42px;
+	width:39px;
+	height:40px;
 	display:inline-block;
 	overflow:hidden;
-	background-image:url(../images/GOT_sprites.png);
+	background-image:url(../images/got-sprite-copy.png);
 	background-repeat:no-repeat;
 	transition:transform .3s;
 	-webkit-transition:-webkit-transform .3s;
@@ -66,29 +66,29 @@ main {
 .stark { background-position:0px -40px; }
 .stark:hover { background-position:0px 0px; }
 
-.baratheon { background-position:-39px -42px; }
+.baratheon { background-position:-38.5px -40px; }
 .baratheon:hover { background-position:-39px 0px; }
 
-.lannister { background-position:-80px -42px; }
-.lannister:hover { background-position:-80px 0px; }
+.lannister { background-position:-77px -40px; }
+.lannister:hover { background-position:-77px 0px; }
 
-.tully { background-position:-152px -42px; }
-.tully:hover { background-position:-152px 0px; }
+.tully { background-position:-115px -40px; }
+.tully:hover { background-position:-115px 0px; }
 
-.greyjoy { background-position:-202px -42px; }
-.greyjoy:hover { background-position:-202px 0px; }
+.greyjoy { background-position:-153px -40px; }
+.greyjoy:hover { background-position:-153px 0px; }
 
-.arryn { background-position:-253px -42px; }
-.arryn:hover { background-position:-253px 0px; }
+.arryn { background-position:-191px -40px; }
+.arryn:hover { background-position:-191px 0px; }
 
-.targaryen { background-position:-304px -42px; }
-.targaryen:hover { background-position: -355px 0px; }
+.targaryen { background-position:-229px -40px; }
+.targaryeny:hover { background-position: -229px 0px; }
 
-.frey { background-position:-355px -42px; }
-.frey:hover { background-position: -355px 0px; }
+.frey { background-position:-267px -40px; }
+.frey:hover { background-position: -267px 0px; }
 
-.targaryen { background-position:-406px -42px; }
-.targaryen:hover { background-position: -406px 0px; }
+.tyrell{ background-position:-305px -40px; }
+.tyrell:hover { background-position: -305px 0px; }
 /* ----- end image sprite ----- */
 
 /* ----- classes for transitions ----- */
@@ -113,7 +113,7 @@ main {
 
   top: 0;
 
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 1);
   color: white;
 
   display: none;
@@ -123,7 +123,7 @@ main {
 	float: right;
 	font-size: 3em;
 	cursor: pointer;
-	padding-right: 0.6em;
+	padding-right: 0.7em;
 }
 
 .show-lightbox { display: block; }
@@ -138,5 +138,5 @@ main {
 video {
 	width: 70%;
 	margin: 1% auto 0 auto;
-	border: thin solid #949393;
+	border: thin solid white;
 }
